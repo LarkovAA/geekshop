@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания это уже точно.">
-      <change afterPath="$PROJECT_DIR$/product/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="сделал динамические ссылки в файле продукт и индекс.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636818892554</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="сделал динамические ссылки в файле продукт и индекс.">
+      <created>1637151139753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637151139753</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделал все задания это уже точно." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания это уже точно." />
+    <MESSAGE value="сделал динамические ссылки в файле продукт и индекс." />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал динамические ссылки в файле продукт и индекс." />
   </component>
 </project>
