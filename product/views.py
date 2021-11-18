@@ -49,12 +49,6 @@ def products(request):
                 'img': 'vendor/img/products/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png'
 
             },
-            {
-                'name': 'Темно-синие широкие строгие брюки ASOS DESIGN',
-                'price': 2890.00,
-                'description': 'Легкая эластичная ткань сирсакер Фактурная ткань.',
-                'img': 'vendor/img/products/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png'
-            },
     ],
         'products_heading': 'GeekShop - Каталог'
     }
