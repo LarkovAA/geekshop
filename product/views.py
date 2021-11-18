@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from .models import Category, Product
 # Create your views here.
 def index(request):
     info_index = {
@@ -10,8 +10,16 @@ def index(request):
     return render(request, 'index.html', context=info_index)
 
 def products(request):
+    products_bd = Product.objects.all()
+
     info_products = {
-        'list_products': [
+        'list_products': products_bd,
+        'products_heading': 'GeekShop - Каталог',
+    }
+    return render(request, 'products.html', context=info_products)
+
+'''
+             [
             {
             'name': 'Худи черного цвета с монограммами adidas Originals',
             'price': 6090.00,
@@ -50,6 +58,5 @@ def products(request):
 
             },
     ],
-        'products_heading': 'GeekShop - Каталог'
-    }
-    return render(request, 'products.html', context=info_products)
+
+'''
