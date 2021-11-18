@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания это уже точно." />
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Добавил через администратора продукты.">
+      <change afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework_2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20s1KaUymC3shtnMbxefI16UIM3" />
@@ -17,8 +37,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,7 +58,56 @@
       <option name="project" value="LOCAL" />
       <updated>1636818813522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сделал все задания это уже точно.">
+      <created>1636818892554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636818892554</updated>
+    </task>
+    <task id="LOCAL-00003" summary="сделал динамические ссылки в файле продукт и индекс.">
+      <created>1637151139753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637151139753</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Сделал все задания">
+      <created>1637157105419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637157105419</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Удалил .idea">
+      <created>1637231122570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637231122570</updated>
+    </task>
+    <task id="LOCAL-00006" summary="сделал дз работаю с командной строке.">
+      <created>1637245248814</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637245248814</updated>
+    </task>
+    <task id="LOCAL-00007" summary="добавил категории через консоль.">
+      <created>1637246883537</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637246883537</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавил через администратора продукты.">
+      <created>1637248081223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637248081223</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,6 +124,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделал все задания это уже точно." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания это уже точно." />
+    <MESSAGE value="сделал динамические ссылки в файле продукт и индекс." />
+    <MESSAGE value="Сделал все задания" />
+    <MESSAGE value="Удалил .idea" />
+    <MESSAGE value="сделал дз работаю с командной строке." />
+    <MESSAGE value="добавил категории через консоль." />
+    <MESSAGE value="Добавил через администратора продукты." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил через администратора продукты." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/product/urls.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
