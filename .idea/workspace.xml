@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="сделал динамическое отображение категорий.">
+      <change afterPath="$PROJECT_DIR$/product/management/commands/fill_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637252431372</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="делаю динамическое создание категорий">
+      <created>1637501234533</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637501234533</updated>
+    </task>
+    <task id="LOCAL-00011" summary="сделал динамическое отображение категорий.">
+      <created>1637501425777</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637501425777</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +147,9 @@
     <MESSAGE value="добавил категории через консоль." />
     <MESSAGE value="Добавил через администратора продукты." />
     <MESSAGE value="Сделал все задания" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания" />
+    <MESSAGE value="делаю динамическое создание категорий" />
+    <MESSAGE value="сделал динамическое отображение категорий." />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал динамическое отображение категорий." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
