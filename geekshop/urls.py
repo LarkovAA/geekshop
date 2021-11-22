@@ -27,9 +27,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('products/', include(urls, namespace='products')),
     path('login/', include(urls_aupp, namespace='authnapp')),
-    path('register/', include(urls_aupp, namespace='authnapp')),
 ]
-
+# path('register/', include(urls_aupp, namespace='register'))
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
