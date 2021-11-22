@@ -11,4 +11,23 @@ def load_from_json(file_name):
         return json.load(infile)
 
 class Command(BaseCommand):
-    pass
+    def handle(self, *args, **options):
+        categories = load_from_json('categoty')
+
+        Category.objects.all().delete()
+        for cat_ry in categories:
+            ner_category = Product(**cat_ry)
+            ner_category.save()
+
+        products = load_from_json('product')
+        Product.objects.all().delete()
+        for product in products:
+            category_name = product['category']
+            _category = Category.objects.get(name=category_name)
+            product['category'] = _category
+            new_product = Product(**product)
+            new_product.save()
+
+        super_user = User.objects.create_superuser(
+            'kane93', 'lexlar@mail.ru', 'lexa2454811@'
+        )
