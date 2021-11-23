@@ -17,17 +17,19 @@ class Command(BaseCommand):
 
         Category.objects.all().delete()
         for cat_ry in categories:
-            ner_category = Category(**cat_ry)
+            ner_category = Category(id=cat_ry['id'], name=cat_ry['name'], description=cat_ry['description'])
             ner_category.save()
 
         products = load_from_json('product')
         Product.objects.all().delete()
         for product in products:
+            print(product)
             category_name = product['category']
             _category = Category.objects.get(name=category_name)
             product['category'] = _category
-            new_product = Product(**product)
+            new_product = Product(id=product['id'], name=product['name'], image=product['image'], short_desc=product['short_desc'],
+                                  description=product['description'], price=product['price'], quantity=product['quantity'], category=product['category'],)
             new_product.save()
 
         super_user = ShopUser.objects.create_superuser(
-            'kane93', 'lexlar@mail.ru', 'lexa2454811@', age=33)
+            'kane93', 'lexlar@mail.ru', 'lexa2454811@', age=28)
