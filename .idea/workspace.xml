@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="не делаются миграции">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал автодобавление категорий и товаров из ОЫЩТ файла">
+      <change afterPath="$PROJECT_DIR$/authnapp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/management/commands/fill_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/management/commands/fill_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/product/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/product/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -204,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637600387952</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Сделал автодобавление категорий и товаров из ОЫЩТ файла">
+      <created>1637690863158</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1637690863158</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +244,8 @@
     <MESSAGE value="создал приложение authnapp настроил url так же предстваления и динамические ссылки в файлах html/" />
     <MESSAGE value="создаю свою модель пользователя." />
     <MESSAGE value="не делаются миграции" />
-    <option name="LAST_COMMIT_MESSAGE" value="не делаются миграции" />
+    <MESSAGE value="Сделал автодобавление категорий и товаров из ОЫЩТ файла" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал автодобавление категорий и товаров из ОЫЩТ файла" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
