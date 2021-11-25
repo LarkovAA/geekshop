@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал автодобавление категорий и товаров из ОЫЩТ файла">
-      <change afterPath="$PROJECT_DIR$/authnapp/forms.py" afterDir="false" />
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Вроде как сделал все задания.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authnapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/management/commands/fill_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/management/commands/fill_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/product/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/templates/product/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/templates/product/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/authnapp" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -214,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637690863158</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Вроде как сделал все задания.">
+      <created>1637770510777</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1637770510777</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +260,8 @@
     <MESSAGE value="создаю свою модель пользователя." />
     <MESSAGE value="не делаются миграции" />
     <MESSAGE value="Сделал автодобавление категорий и товаров из ОЫЩТ файла" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал автодобавление категорий и товаров из ОЫЩТ файла" />
+    <MESSAGE value="Вроде как сделал все задания." />
+    <option name="LAST_COMMIT_MESSAGE" value="Вроде как сделал все задания." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -257,7 +273,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/product/management/commands/fill_db.py</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

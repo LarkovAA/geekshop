@@ -23,7 +23,6 @@ class Command(BaseCommand):
         products = load_from_json('product')
         Product.objects.all().delete()
         for product in products:
-            print(product)
             category_name = product['category']
             _category = Category.objects.get(name=category_name)
             product['category'] = _category

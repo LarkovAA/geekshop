@@ -13,7 +13,6 @@ def products(request):
     products_bd = Product.objects.all()
     category_bd = Category.objects.all()
 
-
     info_products = {
         'list_products': products_bd,
         'list_categoty': category_bd,
