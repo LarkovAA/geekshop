@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Вроде как сделал все задания.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authnapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authnapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/management/commands/fill_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/management/commands/fill_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/product/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/product/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/product/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Абсолютно все задания сделал" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637770510777</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Абсолютно все задания сделал">
+      <created>1637871574348</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637871574348</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +254,8 @@
     <MESSAGE value="не делаются миграции" />
     <MESSAGE value="Сделал автодобавление категорий и товаров из ОЫЩТ файла" />
     <MESSAGE value="Вроде как сделал все задания." />
-    <option name="LAST_COMMIT_MESSAGE" value="Вроде как сделал все задания." />
+    <MESSAGE value="Абсолютно все задания сделал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Абсолютно все задания сделал" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
