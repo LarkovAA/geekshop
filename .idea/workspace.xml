@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Абсолютно все задания сделал">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Добавил файлы и валидатор.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authnapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/product/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_3" />
+        <entry key="$PROJECT_DIR$" value="homework_4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -233,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637927868714</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Добавил файлы и валидатор.">
+      <created>1637940312929</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637940312929</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +280,8 @@
     <MESSAGE value="Сделал автодобавление категорий и товаров из ОЫЩТ файла" />
     <MESSAGE value="Вроде как сделал все задания." />
     <MESSAGE value="Абсолютно все задания сделал" />
-    <option name="LAST_COMMIT_MESSAGE" value="Абсолютно все задания сделал" />
+    <MESSAGE value="Добавил файлы и валидатор." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил файлы и валидатор." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -280,6 +295,11 @@
           <url>file://$PROJECT_DIR$/product/management/commands/fill_db.py</url>
           <line>24</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/authnapp/forms.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

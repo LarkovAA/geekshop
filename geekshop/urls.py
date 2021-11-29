@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from product import views as prod, urls
-from authnapp import views as aupp, urls as urls_aupp
+from authnapp import urls as urls_aupp
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import include
@@ -28,7 +28,7 @@ urlpatterns = [
     path('products/', include(urls, namespace='products')),
     path('auth/', include(urls_aupp, namespace='auth')),
 ]
-# path('register/', include(urls_aupp, namespace='register'))
+
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
