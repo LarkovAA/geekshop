@@ -21,13 +21,11 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import include
 
+app_name = 'baskets'
 
 urlpatterns = [
-    path('', prod.index, name='index'),
-    path('admin/', admin.site.urls),
-    path('products/', include(urls, namespace='products')),
-    path('auth/', include(urls_aupp, namespace='auth')),
-    path('baskets/', include(urls_aupp, namespace='baskets')),
+    path('', prod.index, name='baskets'),
+
 ]
 
 if settings.DEBUG:
