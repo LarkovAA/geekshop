@@ -118,3 +118,4 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 AUTH_USER_MODEL = 'authnapp.ShopUser'
+LOGIN_URL = '/auth/login/'

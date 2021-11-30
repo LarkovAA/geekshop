@@ -1,9 +1,13 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, HttpResponseRedirect
 from authnapp.forms import ShopUserLoginForm, ShopUserRegistrtForm, ShopUserProfilForm
 from django.contrib import auth, messages
 from django.urls import reverse
 
 # Create your views here.
+from baskets.models import Basket
+
+
 def login(request):
     title = 'Ввод данных'
     if request.method == 'POST':
@@ -39,6 +43,7 @@ def register(request):
     content = {'title': title, 'register_form': register_form}
     return render(request, 'authnapp/register.html', content)
 
+@login_required
 def profile(request):
     title = 'Профайл'
     if request.method == 'POST':
@@ -50,6 +55,7 @@ def profile(request):
     content = {
         'title': title,
         'profile_form': ShopUserProfilForm(instance=request.user),
+        'baskets': Basket.objects.filter(user=request.user),
     }
     return render(request, 'authnapp/profile.html', content)
 

@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from product import views as prod, urls
 from authnapp import urls as urls_aupp
+from baskets import urls as urls_bask
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import include
@@ -27,7 +28,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('products/', include(urls, namespace='products')),
     path('auth/', include(urls_aupp, namespace='auth')),
-    path('baskets/', include(urls_aupp, namespace='baskets')),
+    path('baskets/', include(urls_bask, namespace='baskets')),
 ]
 
 if settings.DEBUG:
