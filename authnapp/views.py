@@ -49,13 +49,24 @@ def profile(request):
     if request.method == 'POST':
         profile_form = ShopUserProfilForm(instance=request.user, data=request.POST, files=request.FILES)
         if profile_form.is_valid():
+            messages.success(request, 'Вы успешно сохранили профайл.')
             profile_form.save()
         else:
             print(profile_form.errors)
+
+    baskets = Basket.objects.filter(user=request.user)
+    # summ = (basket.quantity * basket.product.price for basket in baskets)
+    total_sum = sum(basket.summ() for basket in baskets)
+    total_quantity = sum(basket.quantity for basket in baskets)
+
     content = {
         'title': title,
         'profile_form': ShopUserProfilForm(instance=request.user),
-        'baskets': Basket.objects.filter(user=request.user),
+        'baskets': baskets,
+        'total_quantity': total_quantity,
+        'total_sum': total_sum,
+        # 'summ': summ
+
     }
     return render(request, 'authnapp/profile.html', content)
 

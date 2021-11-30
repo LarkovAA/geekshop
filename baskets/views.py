@@ -1,11 +1,14 @@
-from django.http import HttpResponseRedirect
+from django.contrib.auth.decorators import login_required
+from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render
 
 # Create your views here.
+from django.template.loader import render_to_string
+
 from baskets.models import Basket
 from product.models import Product
 
-
+@login_required
 def basket_add(request, id):
 
     user_select = request.user
@@ -20,6 +23,23 @@ def basket_add(request, id):
         Basket.objects.create(user=user_select, product=product, quantity=1)
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 
+@login_required
 def basket_remove(request, basket_id):
     Basket.objects.get(id=basket_id).delete()
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+
+@login_required
+def basket_edit(request, id_basket, quantity):
+    if request.is_ajax():
+        basket = Basket.objects.get(id=id_basket)
+        if quantity > 0:
+            basket.quantity = quantity
+            basket.save()
+        else:
+            basket.delete()
+
+        baskets = Basket.objects.filter(user=request.user)
+        total_sum = sum(basket.summ() for basket in baskets)
+        context = {'baskets': baskets, 'total_sum': total_sum}
+        result = render_to_string('baskets/basket.html', context)
+        return JsonResponse({'result': result})
