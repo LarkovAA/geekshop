@@ -15,20 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from product import views as prod, urls
-from authnapp import urls as urls_aupp
-from baskets import urls as urls_bask
 from django.conf import settings
 from django.conf.urls.static import static
-from django.conf.urls import include
 
+from baskets.views import basket_add, basket_remove
+
+app_name = 'baskets'
 
 urlpatterns = [
-    path('', prod.index, name='index'),
-    path('admin/', admin.site.urls),
-    path('products/', include(urls, namespace='products')),
-    path('auth/', include(urls_aupp, namespace='auth')),
-    path('baskets/', include(urls_bask, namespace='baskets')),
+    path('add/<int:id>/', basket_add, name='basket_add'),
+    path('remove/<int:basket_id>/', basket_remove, name='basket_remove'),
+
 ]
 
 if settings.DEBUG:
