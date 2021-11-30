@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания это уже точно." />
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baskets/templates/baskets/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/templates/baskets/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baskets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baskets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/product/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework_5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20s1KaUymC3shtnMbxefI16UIM3" />
@@ -17,8 +39,51 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/baskets" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets" />
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets\migrations" />
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\authnapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets\templates\baskets" />
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\product\templates\product" />
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\authnapp\templates\authnapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="fill_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geekshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/product/management/commands" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/product/management/commands/fill_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fill_db" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,7 +101,175 @@
       <option name="project" value="LOCAL" />
       <updated>1636818813522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сделал все задания это уже точно.">
+      <created>1636818892554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636818892554</updated>
+    </task>
+    <task id="LOCAL-00003" summary="сделал динамические ссылки в файле продукт и индекс.">
+      <created>1637151139753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637151139753</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Сделал все задания">
+      <created>1637157105419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637157105419</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Удалил .idea">
+      <created>1637231122570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637231122570</updated>
+    </task>
+    <task id="LOCAL-00006" summary="сделал дз работаю с командной строке.">
+      <created>1637245248814</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637245248814</updated>
+    </task>
+    <task id="LOCAL-00007" summary="добавил категории через консоль.">
+      <created>1637246883537</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637246883537</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавил через администратора продукты.">
+      <created>1637248081223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637248081223</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Сделал все задания">
+      <created>1637252431372</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637252431372</updated>
+    </task>
+    <task id="LOCAL-00010" summary="делаю динамическое создание категорий">
+      <created>1637501234533</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637501234533</updated>
+    </task>
+    <task id="LOCAL-00011" summary="сделал динамическое отображение категорий.">
+      <created>1637501425777</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637501425777</updated>
+    </task>
+    <task id="LOCAL-00012" summary="делаю динамическую загрузку БД из json файлов.">
+      <created>1637502531438</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637502531438</updated>
+    </task>
+    <task id="LOCAL-00013" summary="создал приложение authnapp">
+      <created>1637584679194</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637584679194</updated>
+    </task>
+    <task id="LOCAL-00014" summary="создал приложение authnapp настроил url так же предстваления и динамические ссылки в файлах html/">
+      <created>1637593385674</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637593385674</updated>
+    </task>
+    <task id="LOCAL-00015" summary="создаю свою модель пользователя.">
+      <created>1637595629137</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637595629137</updated>
+    </task>
+    <task id="LOCAL-00016" summary="не делаются миграции">
+      <created>1637599989203</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1637599989203</updated>
+    </task>
+    <task id="LOCAL-00017" summary="не делаются миграции">
+      <created>1637600387952</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1637600387952</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Сделал автодобавление категорий и товаров из ОЫЩТ файла">
+      <created>1637690863158</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1637690863158</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Вроде как сделал все задания.">
+      <created>1637770510777</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1637770510777</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Абсолютно все задания сделал">
+      <created>1637871574348</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637871574348</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Абсолютно все задания сделал">
+      <created>1637927868714</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1637927868714</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Добавил файлы и валидатор.">
+      <created>1637940312929</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637940312929</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Сделаный profile">
+      <created>1638201049685</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1638201049685</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Делаю миграцию в baskets">
+      <created>1638206034522</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1638206034522</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Сделал все задания">
+      <created>1638272197629</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1638272197629</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,6 +286,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделал все задания это уже точно." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания это уже точно." />
+    <MESSAGE value="сделал динамические ссылки в файле продукт и индекс." />
+    <MESSAGE value="Удалил .idea" />
+    <MESSAGE value="сделал дз работаю с командной строке." />
+    <MESSAGE value="добавил категории через консоль." />
+    <MESSAGE value="Добавил через администратора продукты." />
+    <MESSAGE value="делаю динамическое создание категорий" />
+    <MESSAGE value="сделал динамическое отображение категорий." />
+    <MESSAGE value="делаю динамическую загрузку БД из json файлов." />
+    <MESSAGE value="создал приложение authnapp" />
+    <MESSAGE value="создал приложение authnapp настроил url так же предстваления и динамические ссылки в файлах html/" />
+    <MESSAGE value="создаю свою модель пользователя." />
+    <MESSAGE value="не делаются миграции" />
+    <MESSAGE value="Сделал автодобавление категорий и товаров из ОЫЩТ файла" />
+    <MESSAGE value="Вроде как сделал все задания." />
+    <MESSAGE value="Абсолютно все задания сделал" />
+    <MESSAGE value="Добавил файлы и валидатор." />
+    <MESSAGE value="Сделаный profile" />
+    <MESSAGE value="Делаю миграцию в baskets" />
+    <MESSAGE value="Сделал все задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/product/urls.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/product/management/commands/fill_db.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/authnapp/forms.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
