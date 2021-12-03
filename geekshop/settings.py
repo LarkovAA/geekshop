@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'product',
     'authnapp',
     'baskets',
+    'admins',
 ]
 
 MIDDLEWARE = [
@@ -52,12 +53,13 @@ ROOT_URLCONF = 'geekshop.urls'
 
 TEMPLATES_DIR_PROD = BASE_DIR / 'product/templates/product'
 TEMPLATES_DIR_AUTHNAPP = BASE_DIR / 'authnapp/templates/authnapp'
-
+TEMPLATES_DIR_BASKETS = BASE_DIR / 'baskets/templates/baskets'
+TEMPLATES_DIR_ADMINS = BASE_DIR / 'admins/templates/admins'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATES_DIR_PROD, TEMPLATES_DIR_AUTHNAPP],
+        'DIRS': [TEMPLATES_DIR_PROD, TEMPLATES_DIR_AUTHNAPP, TEMPLATES_DIR_BASKETS, ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал задание доп к 6 уроку">
+      <change afterPath="$PROJECT_DIR$/admins/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/templates/admins/admin-users-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/templates/admins/admin-users-read.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/templates/admins/admin-users-update-delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/templates/admins/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/templates/admins/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/templates/admins/includes/siberia_bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admins/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/product/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/product/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/admin-users-create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/admin-users-read.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/admin-users-update-delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/admin.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -38,16 +52,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/baskets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admins/templates/admins" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\admins\templates\admins" />
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\admins" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets\migrations" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\authnapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\admins\templates\admins" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets\templates\baskets" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\product\templates\product" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\authnapp\templates\authnapp" />
@@ -272,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638296473149</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Сделал задание доп к 6 уроку">
+      <created>1638522496419</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1638522496419</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +332,8 @@
     <MESSAGE value="Сделаный profile" />
     <MESSAGE value="Делаю миграцию в baskets" />
     <MESSAGE value="Сделал все задания" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания" />
+    <MESSAGE value="Сделал задание доп к 6 уроку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал задание доп к 6 уроку" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
