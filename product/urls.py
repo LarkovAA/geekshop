@@ -7,4 +7,5 @@ app_name = 'products'
 
 urlpatterns = [
    path('', views.products, name='index'),
+   path('detail/<int:pk>/', product.ProductDetail.as_view(), name='detail'),
 ]
