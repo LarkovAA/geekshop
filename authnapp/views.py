@@ -1,12 +1,15 @@
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth.decorators import login_required, user_passes_test
 from django.shortcuts import render, HttpResponseRedirect
+from django.utils.decorators import method_decorator
+from django.views.generic import CreateView, UpdateView
+
 from authnapp.forms import ShopUserLoginForm, ShopUserRegistrtForm, ShopUserProfilForm
 from django.contrib import auth, messages
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 
 # Create your views here.
+from authnapp.models import ShopUser
 from baskets.models import Basket
-
 
 def login(request):
     title = 'Ввод данных'
@@ -28,20 +31,34 @@ def login(request):
     content = {'title': title, 'login_form': login_form}
     return render(request, 'authnapp/login.html', content)
 
-def register(request):
-    title = 'Регистрация'
+class RegUserCreateView(CreateView):
+    model = ShopUser
+    template_name = 'authnapp/register.html'
+    form_class = ShopUserRegistrtForm
+    success_url = reverse_lazy('auth:login')
 
-    if request.method == 'POST':
-        register_form = ShopUserRegistrtForm(data=request.POST)
-        if register_form.is_valid():
-            register_form.save()
-            messages.success(request, 'Вы успешно зарегистрировалиcь.')
-            return HttpResponseRedirect(reverse('auth:login'))
-    else:
-        register_form = ShopUserRegistrtForm()
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(RegUserCreateView, self).get_context_data(**kwargs)
+        context['title'] = 'Регистрация'
+        return context
 
-    content = {'title': title, 'register_form': register_form}
-    return render(request, 'authnapp/register.html', content)
+    def dispatch(self, request, *args, **kwargs):
+        return super(RegUserCreateView,self).dispatch(request, *args, **kwargs)
+
+# def register(request):
+#     title = 'Регистрация'
+#
+#     if request.method == 'POST':
+#         register_form = ShopUserRegistrtForm(data=request.POST)
+#         if register_form.is_valid():
+#             register_form.save()
+#             messages.success(request, 'Вы успешно зарегистрировалиcь.')
+#             return HttpResponseRedirect(reverse('auth:login'))
+#     else:
+#         register_form = ShopUserRegistrtForm()
+#
+#     content = {'title': title, 'register_form': register_form}
+#     return render(request, 'authnapp/register.html', content)
 
 @login_required
 def profile(request):

@@ -16,6 +16,7 @@
                                 <thead>
 
                                 <tr>
+                                    <th>ID</th>
                                     <th>Категория</th>
                                     <th>Имя продукта</th>
                                     <th>Фотография</th>
@@ -31,8 +32,9 @@
 
                                     {% for el in products %}
                                         <tr>
+                                            <td> <a href="{% url 'admins:admin_product_update' el.id %}" style="color: dodgerblue">{{el.id}}</a></td>
                                             <td>{{el.category}}</td>
-                                            <td><a href="{% url 'admins:admin_product_update' el.name %}" style="color: dodgerblue">{{el.name}}</a></td>
+                                            <td>{{el.name}}</td>
                                             <td>{{el.image}}</td>
                                             <td>{{el.short_desc}}</td>
                                             <td>{{el.description}}</td>

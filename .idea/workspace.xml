@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделала все задания">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал пагинацию">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/product/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/admins/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin-users-update-delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin-users-update-delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin_categoryes_update_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin_categoryes_update_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin_product_update_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin_product_update_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admins/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admins/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admins/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638564017722</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Сделал пагинацию">
+      <created>1638894420723</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1638894420723</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,7 +351,8 @@
     <MESSAGE value="Сделал задание доп к 6 уроку" />
     <MESSAGE value="Сделал админку. Приступаю к Категориям и продуктам." />
     <MESSAGE value="Сделала все задания" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделала все задания" />
+    <MESSAGE value="Сделал пагинацию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал пагинацию" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -350,6 +366,11 @@
           <url>file://$PROJECT_DIR$/authnapp/forms.py</url>
           <line>38</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/authnapp/views.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
