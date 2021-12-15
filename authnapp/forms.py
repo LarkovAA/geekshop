@@ -1,5 +1,5 @@
 import hashlib
-from random import random
+import random
 
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm, UserChangeForm
 from django.core.exceptions import ValidationError
