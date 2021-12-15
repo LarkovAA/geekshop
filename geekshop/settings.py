@@ -9,11 +9,12 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-
-from pathlib import Path
-from pathlib import Path
-
 import os
+from pathlib import Path
+import django
+from django.conf import settings
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,6 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-6+3io2+s8q74_b!@1#2tlx)gbuh)41z2o#bmi(gw*rhhx4!gcc'
+from dotenv import load_dotenv
+load_dotenv(BASE_DIR/'.env')
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ALLOWED_HOSTS = []
@@ -33,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'product',
+    'authnapp',
+    'baskets',
+    'admins',
 ]
 
 MIDDLEWARE = [
@@ -47,13 +54,15 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'geekshop.urls'
 
-TEMPLATES_DIR = BASE_DIR / 'product/templates'
+TEMPLATES_DIR_PROD = BASE_DIR / 'product/templates'
+TEMPLATES_DIR_AUTHNAPP = BASE_DIR / 'authnapp/templates'
+TEMPLATES_DIR_BASKETS = BASE_DIR / 'baskets/templates'
+TEMPLATES_DIR_ADMINS = BASE_DIR / 'admins/templates'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'DIRS': [TEMPLATES_DIR, ],
+        'DIRS': [TEMPLATES_DIR_PROD, TEMPLATES_DIR_AUTHNAPP, TEMPLATES_DIR_BASKETS, TEMPLATES_DIR_ADMINS],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -61,6 +70,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'product.context_processors.basket',
             ],
         },
     },
@@ -93,7 +103,6 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
 LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
@@ -109,6 +118,22 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATICFILES_DIRS = [BASE_DIR / 'static',
+STATICFILES_DIRS = [BASE_DIR / 'static',]
 
-]
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+AUTH_USER_MODEL = 'authnapp.ShopUser'
+LOGIN_URL = '/auth/login/'
+LOGIN_REDIRECT_URL = '/'
+
+DOMAIN_NAME = 'http://localhost:8000'
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = '25'
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+EMAIL_USE_SSL = True if os.getenv('EMAIL_USE_SSL') == 'True' else False
+
+EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+EMAIL_FILE_PATH = 'tmp/email-messages/'
+
