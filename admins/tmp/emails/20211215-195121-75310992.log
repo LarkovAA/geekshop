@@ -1,0 +1,14 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?b?0JTQu9GPINCw0LrRgtC40LLQsNGG0LjQuCDRg9GH0LXRgtC90L7QuSDQt9Cw0L8=?=
+ =?utf-8?b?0LjRgdC4IHJycnIg0L/RgNC+0LnRgtC40YLQtSDQv9C+INGB0YHRi9C70LrQtQ==?=
+From: django@geekshop.local
+To: rrrr@mail.ru
+Date: Wed, 15 Dec 2021 15:51:21 -0000
+Message-ID: <163958348125.6372.16847874458144776059@Kane>
+
+Для подтверждения учетной записи rrrr на портале 
+ http://localhost:8000/auth/verify/rrrr@mail.ru/1a0a13fd2b642d9f2bb990f9a6fbfbdd0bff2751/
+-------------------------------------------------------------------------------
