@@ -1,3 +1,6 @@
+import hashlib
+import random
+
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm, UserChangeForm
 from django.core.exceptions import ValidationError
 from django import forms
@@ -38,6 +41,15 @@ class ShopUserRegistrtForm(UserCreationForm):
 
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'form-control py'
+
+    def save(self, commit=True):
+        user = super(ShopUserRegistrtForm, self).save()
+        user.is_active = False
+        salt = hashlib.sha1(str(random.random()).encode('utf8')).hexdigest()[:6]
+        user.activation_key = hashlib.sha1((user.email + salt).encode('utf8')).hexdigest()
+        user.save()
+        return user
+
 
 class ShopUserProfilForm(UserChangeForm):
     avatar = forms.ImageField(widget=forms.FileInput(), required=False)

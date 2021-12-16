@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал пагинацию">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/admins/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin-users-update-delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin-users-update-delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin_categoryes_update_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin_categoryes_update_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin_product_update_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin_product_update_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admins/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admins/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authnapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authnapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал пагинацию" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_7" />
+        <entry key="$PROJECT_DIR$" value="homework_8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/admins/templates/admins" />
