@@ -1,7 +1,7 @@
 from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path
-from authnapp import views
+
 from authnapp.views import RegUserCreateView, LoginLoginView, ProfileUpdateView, Logout
 
 app_name = 'auth'

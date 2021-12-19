@@ -31,6 +31,8 @@ urlpatterns = [
     path('auth/', include(urls_aupp, namespace='auth')),
     path('baskets/', include(urls_bask, namespace='baskets')),
     path('admins/', include(urls_adm, namespace='admins')),
+    path('i18n/', include('django.conf.urls.i18n')),
+    path('', include('social_django.urls', namespace='social')),
 ]
 
 if settings.DEBUG:
