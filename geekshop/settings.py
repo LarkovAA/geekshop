@@ -26,8 +26,8 @@ from dotenv import load_dotenv
 load_dotenv(BASE_DIR/'.env')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-ALLOWED_HOSTS = []
+DEBUG = False
+ALLOWED_HOSTS = ['.localhost', '127.0.0.1',]
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -121,24 +121,25 @@ STATIC_URL = '/static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 STATICFILES_DIRS = [BASE_DIR / 'static',]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'authnapp.ShopUser'
 LOGIN_URL = '/auth/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGIN_ERROR_URL = '/'
 
-DOMAIN_NAME = 'http://localhost:8000'
-EMAIL_HOST = 'localhost'
-EMAIL_PORT = '25'
-EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
-EMAIL_USE_SSL = True if os.getenv('EMAIL_USE_SSL') == 'True' else False
+# DOMAIN_NAME = 'http://localhost:8000'
+# EMAIL_HOST = 'localhost'
+# EMAIL_PORT = '25'
+# EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+# EMAIL_USE_SSL = True if os.getenv('EMAIL_USE_SSL') == 'True' else False
 
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = 'tmp/email-messages/'
@@ -160,7 +161,7 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.social_auth.auth_allowed',
     'social_core.pipeline.social_auth.social_user',
     'social_core.pipeline.user.create_user',
-    # 'authnapp.pipeline.save_user_profile',
+    'authnapp.pipeline.save_user_profile',
     'social_core.pipeline.social_auth.associate_user',
     'social_core.pipeline.social_auth.load_extra_data',
     'social_core.pipeline.user.user_details',
