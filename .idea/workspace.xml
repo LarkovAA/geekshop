@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал настройки для подключения через вк">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -311,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639656990033</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Сделал настройки для подключения через вк">
+      <created>1639921187097</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1639921187097</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,7 +363,8 @@
     <MESSAGE value="Сделала все задания" />
     <MESSAGE value="Сделал пагинацию" />
     <MESSAGE value="Сделал все задания" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания" />
+    <MESSAGE value="Сделал настройки для подключения через вк" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал настройки для подключения через вк" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -363,13 +376,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/authnapp/forms.py</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/authnapp/views.py</url>
           <line>14</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/authnapp/pipeline.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../../../../../Python3/Lib/site-packages/django/conf/__init__.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
