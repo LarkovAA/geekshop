@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал пагинацию" />
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authnapp/templates/authnapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/templates/authnapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_8" />
+        <entry key="$PROJECT_DIR$" value="homework_2_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -299,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638894420723</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Сделал все задания">
+      <created>1639656990033</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1639656990033</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,12 +346,12 @@
     <MESSAGE value="Добавил файлы и валидатор." />
     <MESSAGE value="Сделаный profile" />
     <MESSAGE value="Делаю миграцию в baskets" />
-    <MESSAGE value="Сделал все задания" />
     <MESSAGE value="Сделал задание доп к 6 уроку" />
     <MESSAGE value="Сделал админку. Приступаю к Категориям и продуктам." />
     <MESSAGE value="Сделала все задания" />
     <MESSAGE value="Сделал пагинацию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал пагинацию" />
+    <MESSAGE value="Сделал все задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
