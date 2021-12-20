@@ -26,8 +26,8 @@ from dotenv import load_dotenv
 load_dotenv(BASE_DIR/'.env')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-ALLOWED_HOSTS = ['.localhost', '127.0.0.1',]
+DEBUG = True
+ALLOWED_HOSTS = [] #'.localhost', '127.0.0.1',
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'baskets',
     'admins',
     'social_django',
+    'ordersapp',
 ]
 
 MIDDLEWARE = [

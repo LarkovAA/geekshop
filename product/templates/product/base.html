@@ -40,11 +40,34 @@
                     <a class="nav-link" href="{% url 'auth:login' %}">Войти <i class="fas fa-sign-in-alt"></i></a>
                 </li>
                 {% else %}
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="{% url 'auth:profile' %}">{{user.username}}-->
+<!--                        <i class="fas fa-user-circle"></i>-->
+<!--                    </a>-->
+<!--                </li>-->
+
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'auth:profile' %}">{{user.username}}
-                        <i class="fas fa-user-circle"></i>
-                    </a>
+                   <div class="dropdown">
+                       <a class="dropdown-toggle" href="" data-toggle="dropdown">
+                           {{ user.username|default:'Пользователь' }}
+                           <span class="caret"></span>
+                       </a>
+                       <ul class="dropdown-menu">
+                           <li>
+                               <a href="{% url 'auth:profile' %}">
+                                   профиль
+                               </a>
+                           </li>
+                           <li>
+                               <a href="{% url 'ordersapp:list' %}">
+                                   заказы
+                               </a>
+                           </li>
+                       </ul>
+                   </div>
                 </li>
+
+
                 {% if user.is_superuser %}
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'admins:index' %}">

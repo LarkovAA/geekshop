@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал почти все">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authnapp/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/pipeline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/product/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_2_1" />
+        <entry key="$PROJECT_DIR$" value="homework_2_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,16 +41,16 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ordersapp" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\ordersapp" />
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\ordersapp\migrations" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\admins\templates\admins" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\admins" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets" />
-      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets\migrations" />
-      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\authnapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\admins\templates\admins" />
@@ -101,8 +103,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.geekshop" />
       <item itemvalue="Python.geekshope2" />
+      <item itemvalue="Python.geekshop" />
     </list>
     <recent_temporary>
       <list>
@@ -350,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639937205949</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Сделал все задания.">
+      <created>1639941092195</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1639941092195</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +375,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="сделал динамические ссылки в файле продукт и индекс." />
     <MESSAGE value="Удалил .idea" />
     <MESSAGE value="сделал дз работаю с командной строке." />
     <MESSAGE value="добавил категории через консоль." />
@@ -391,7 +399,8 @@
     <MESSAGE value="Сделал все задания" />
     <MESSAGE value="Сделал настройки для подключения через вк" />
     <MESSAGE value="Сделал почти все" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал почти все" />
+    <MESSAGE value="Сделал все задания." />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -420,6 +429,10 @@
           <url>file://$PROJECT_DIR$/authnapp/pipeline.py</url>
           <line>12</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/admins/urls.py</url>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

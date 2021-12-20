@@ -14,27 +14,22 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from product import views as prod, urls
-from authnapp import urls as urls_aupp
-from baskets import urls as urls_bask
-from admins import urls as urls_adm
-from ordersapp import urls as urls_ord
-from django.conf import settings
 from django.conf.urls.static import static
-from django.conf.urls import include
+from django.urls import path
+from django.conf import settings
+from ordersapp.views import OrderList, OrderCreate, OrderUpdate, OrderDelete, OrderDetail, order_forming_complete
 
+app_name = 'ordersapp'
 
 urlpatterns = [
-    path('', prod.index, name='index'),
-    path('admin/', admin.site.urls),
-    path('products/', include(urls, namespace='products')),
-    path('auth/', include(urls_aupp, namespace='auth')),
-    path('baskets/', include(urls_bask, namespace='baskets')),
-    path('admins/', include(urls_adm, namespace='admins')),
-    path('i18n/', include('django.conf.urls.i18n')),
-    path('', include('social_django.urls', namespace='social')),
-    path('ordersapp/', include(urls_ord, namespace='ordersapp')),
+    path('', OrderList.as_view(), name='list'),
+    path('create/', OrderCreate.as_view(), name='create'),
+    path('update/<int:pk>/', OrderUpdate.as_view(), name='update'),
+    path('read/<int:pk>/', OrderDetail.as_view(), name='read'),
+    path('delete/<int:pk>/', OrderDelete.as_view(), name='delete'),
+    path('forming_complete/<int:pk>/', order_forming_complete, name='forming_complete'),
+
+
 ]
 
 if settings.DEBUG:
