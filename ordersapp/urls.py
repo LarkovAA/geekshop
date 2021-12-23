@@ -19,7 +19,7 @@ from django.urls import path
 from django.conf import settings
 from ordersapp.views import OrderList, OrderCreate, OrderUpdate, OrderDelete, OrderDetail, order_forming_complete
 
-app_name = 'ordersapp'
+app_name = 'orders'
 
 urlpatterns = [
     path('', OrderList.as_view(), name='list'),

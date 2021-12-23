@@ -61,11 +61,12 @@ TEMPLATES_DIR_PROD = BASE_DIR / 'product/templates'
 TEMPLATES_DIR_AUTHNAPP = BASE_DIR / 'authnapp/templates'
 TEMPLATES_DIR_BASKETS = BASE_DIR / 'baskets/templates'
 TEMPLATES_DIR_ADMINS = BASE_DIR / 'admins/templates'
+TEMPLATES_DIR_ORDERSAPP = BASE_DIR / 'ordersapp/templates'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATES_DIR_PROD, TEMPLATES_DIR_AUTHNAPP, TEMPLATES_DIR_BASKETS, TEMPLATES_DIR_ADMINS],
+        'DIRS': [TEMPLATES_DIR_PROD, TEMPLATES_DIR_AUTHNAPP, TEMPLATES_DIR_BASKETS, TEMPLATES_DIR_ADMINS, TEMPLATES_DIR_ORDERSAPP],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -34,7 +34,7 @@ urlpatterns = [
     path('admins/', include(urls_adm, namespace='admins')),
     path('i18n/', include('django.conf.urls.i18n')),
     path('', include('social_django.urls', namespace='social')),
-    path('ordersapp/', include(urls_ord, namespace='ordersapp')),
+    path('orders/', include(urls_ord, namespace='orders')),
 ]
 
 if settings.DEBUG:
