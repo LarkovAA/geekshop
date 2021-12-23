@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал почти все">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал половину заданий">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authnapp/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/pipeline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordersapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ordersapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordersapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ordersapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordersapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ordersapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/product/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,15 +19,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_2_1" />
+        <entry key="$PROJECT_DIR$" value="homework_2_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\ordersapp" />
+      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\ordersapp\migrations" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\admins\templates\admins" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\admins" />
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets" />
-      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\baskets\migrations" />
-      <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\authnapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Загар\Desktop\Изучение Python\Python\Django\project\geekshop\admins\templates\admins" />
@@ -87,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Python3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
       <option name="PARAMETERS" value="manage.py runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,8 +105,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.geekshop" />
       <item itemvalue="Python.geekshope2" />
+      <item itemvalue="Python.geekshop" />
     </list>
     <recent_temporary>
       <list>
@@ -350,7 +354,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639937205949</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Сделал все задания.">
+      <created>1639941092195</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1639941092195</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Сделал половину заданий">
+      <created>1640018031054</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1640018031054</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,8 +384,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="сделал динамические ссылки в файле продукт и индекс." />
-    <MESSAGE value="Удалил .idea" />
     <MESSAGE value="сделал дз работаю с командной строке." />
     <MESSAGE value="добавил категории через консоль." />
     <MESSAGE value="Добавил через администратора продукты." />
@@ -391,7 +407,9 @@
     <MESSAGE value="Сделал все задания" />
     <MESSAGE value="Сделал настройки для подключения через вк" />
     <MESSAGE value="Сделал почти все" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал почти все" />
+    <MESSAGE value="Сделал все задания." />
+    <MESSAGE value="Сделал половину заданий" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал половину заданий" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -421,7 +439,19 @@
           <line>12</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ordersapp/views.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
