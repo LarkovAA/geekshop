@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания. Кроме дополнительного">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baskets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordersapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ordersapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordersapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ordersapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ordersapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ordersapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/product/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/orders_scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/orders_scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_2_3" />
+        <entry key="$PROJECT_DIR$" value="homework_2_4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -373,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640285732663</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Сделал все задания. Кроме дополнительного">
+      <created>1640630737914</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1640630737914</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +397,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="сделал дз работаю с командной строке." />
     <MESSAGE value="добавил категории через консоль." />
     <MESSAGE value="Добавил через администратора продукты." />
     <MESSAGE value="делаю динамическое создание категорий" />
@@ -414,7 +421,8 @@
     <MESSAGE value="Сделал все задания." />
     <MESSAGE value="Сделал половину заданий" />
     <MESSAGE value="Сделал все задания" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания" />
+    <MESSAGE value="Сделал все задания. Кроме дополнительного" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания. Кроме дополнительного" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,7 +454,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ordersapp/views.py</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
