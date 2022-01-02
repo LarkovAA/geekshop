@@ -9,6 +9,8 @@ colorama==0.4.4
 cryptography==36.0.1
 defusedxml==0.7.1
 Django==3.2.6
+django-debug-toolbar==3.2.4
+django-debug-toolbar-template-profiler==2.0.2
 Flask==2.0.2
 form==0.0.1
 idna==3.3
@@ -42,3 +44,4 @@ sqlparse==0.4.1
 urllib3==1.26.7
 ursina==4.0.0
 Werkzeug==2.0.2
+wrapt==1.13.3
