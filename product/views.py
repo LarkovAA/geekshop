@@ -15,9 +15,9 @@ def index(request):
 
 def products(request, id_category=None, page=1):
     if id_category:
-        products_bd = Product.objects.filter(category=id_category)
+        products_bd = Product.objects.filter(category=id_category).select_related('category')
     else:
-        products_bd = Product.objects.all()
+        products_bd = Product.objects.all().select_related('category')
 
     paginator = Paginator(products_bd, per_page=2)
 
