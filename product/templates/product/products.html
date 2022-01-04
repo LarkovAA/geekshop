@@ -69,6 +69,7 @@
                             </h4>
                             <h5>{{el.price}} руб.</h5>
                             <p class="card-text">{{el.description}}</p>
+                            <p class="card-text">{{el.category.name}}</p>
                         </div>
                         <div class="card-footer text-center">
                             <a href="{% url 'baskets:basket_add' el.id %}" type="button" class="btn btn-outline-success">Отправить в корзину</a>

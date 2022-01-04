@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал файл reqirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/orders_scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/orders_scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordersapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ordersapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/templates/product/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +103,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.geekshope2" />
       <item itemvalue="Python.geekshop" />
+      <item itemvalue="Python.geekshope2" />
     </list>
     <recent_temporary>
       <list>
