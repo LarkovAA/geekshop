@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания. Кроме дополнительного">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Делал на своем тестовом проекте.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordersapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ordersapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordersapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ordersapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/orders_scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/orders_scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requairemets.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_2_4" />
+        <entry key="$PROJECT_DIR$" value="homework_2_6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,6 +105,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.geekshop" />
         <item itemvalue="Python.geekshop" />
       </list>
     </recent_temporary>
