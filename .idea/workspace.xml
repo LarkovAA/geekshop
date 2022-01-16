@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Кеширование при помощи Memcached 2">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Низкоуровневое кеширование.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_2_6_2" />
+        <entry key="$PROJECT_DIR$" value="homework_2_7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -428,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642348109466</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Низкоуровневое кеширование.">
+      <created>1642357133559</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1642357133559</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +448,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="делаю динамическую загрузку БД из json файлов." />
     <MESSAGE value="создал приложение authnapp" />
     <MESSAGE value="создал приложение authnapp настроил url так же предстваления и динамические ссылки в файлах html/" />
     <MESSAGE value="создаю свою модель пользователя." />
@@ -469,7 +472,8 @@
     <MESSAGE value="Сделал все задания" />
     <MESSAGE value="Кеширование при помощи Memcached" />
     <MESSAGE value="Кеширование при помощи Memcached 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Кеширование при помощи Memcached 2" />
+    <MESSAGE value="Низкоуровневое кеширование." />
+    <option name="LAST_COMMIT_MESSAGE" value="Низкоуровневое кеширование." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
