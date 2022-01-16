@@ -1,8 +1,21 @@
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.shortcuts import render
 from django.views.generic import DetailView
-
 from .models import Category, Product
+from django.conf import settings
+from django.core.cache import cache
+
+def get_link_category():
+    if settings.LOW_CACHE:
+        key = 'link_category'
+        link_category = cache.get(key)
+        if link_category is None:
+            link_category = Category.objects.all()
+            cache.set(key, link_category)
+        return link_category
+    else:
+        return Category.objects.all()
+
 # Create your views here.
 def index(request):
     info_index = {
@@ -28,7 +41,8 @@ def products(request, id_category=None, page=1):
     except EmptyPage:
         products_paginator = paginator.page(paginator.num_pages)
 
-    category_bd = Category.objects.all()
+    # category_bd = Category.objects.all()
+    category_bd = get_link_category()
     products_bd = products_paginator
     info_products = {
         'list_products': products_bd,

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Кеширование при помощи Memcached">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Кеширование при помощи Memcached 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baskets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -419,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642345719628</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Кеширование при помощи Memcached 2">
+      <created>1642348109466</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1642348109466</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +444,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="сделал динамическое отображение категорий." />
     <MESSAGE value="делаю динамическую загрузку БД из json файлов." />
     <MESSAGE value="создал приложение authnapp" />
     <MESSAGE value="создал приложение authnapp настроил url так же предстваления и динамические ссылки в файлах html/" />
@@ -460,7 +468,8 @@
     <MESSAGE value="Сделал рег через вк" />
     <MESSAGE value="Сделал все задания" />
     <MESSAGE value="Кеширование при помощи Memcached" />
-    <option name="LAST_COMMIT_MESSAGE" value="Кеширование при помощи Memcached" />
+    <MESSAGE value="Кеширование при помощи Memcached 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Кеширование при помощи Memcached 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -482,7 +491,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/product/views.py</url>
-          <line>16</line>
+          <line>29</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

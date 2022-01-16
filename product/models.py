@@ -5,7 +5,7 @@ from django.db import models
 class Category(models.Model):
     name = models.CharField(verbose_name='название категории', max_length=128, unique=True)
     description = models.TextField(verbose_name='описание', blank=True)
-
+    is_active = models.BooleanField(default=True, db_index=True)
     def __str__(self):
         return self.name
 
