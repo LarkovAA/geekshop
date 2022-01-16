@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Низкоуровневое кеширование.">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Новая ветка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -432,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642357133559</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Новая ветка">
+      <created>1642358772054</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1642358772054</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,7 +455,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="создал приложение authnapp" />
     <MESSAGE value="создал приложение authnapp настроил url так же предстваления и динамические ссылки в файлах html/" />
     <MESSAGE value="создаю свою модель пользователя." />
     <MESSAGE value="не делаются миграции" />
@@ -473,7 +479,8 @@
     <MESSAGE value="Кеширование при помощи Memcached" />
     <MESSAGE value="Кеширование при помощи Memcached 2" />
     <MESSAGE value="Низкоуровневое кеширование." />
-    <option name="LAST_COMMIT_MESSAGE" value="Низкоуровневое кеширование." />
+    <MESSAGE value="Новая ветка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Новая ветка" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
