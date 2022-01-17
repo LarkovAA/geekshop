@@ -5,6 +5,17 @@ from .models import Category, Product
 from django.conf import settings
 from django.core.cache import cache
 
+def get_link_product():
+    if settings.LOW_CACHE:
+        key = 'link_product'
+        link_product = cache.get(key)
+        if link_product is None:
+            link_product = Product.objects.all().select_related('category')
+            cache.set(key, link_product)
+        return link_product
+    else:
+        return Product.objects.all().select_related('category')
+
 def get_link_category():
     if settings.LOW_CACHE:
         key = 'link_category'
@@ -15,6 +26,17 @@ def get_link_category():
         return link_category
     else:
         return Category.objects.all()
+
+def get_product(pk):
+    if settings.LOW_CACHE:
+        key = f'product{pk}'
+        product = cache.get(key)
+        if product is None:
+            product = Product.objects.get(id=pk)
+            cache.set(key, product)
+        return product
+    else:
+        return Product.objects.get(id=pk)
 
 # Create your views here.
 def index(request):
@@ -31,6 +53,8 @@ def products(request, id_category=None, page=1):
         products_bd = Product.objects.filter(category=id_category).select_related('category')
     else:
         products_bd = Product.objects.all().select_related('category')
+
+    products_bd = get_link_product()
 
     paginator = Paginator(products_bd, per_page=2)
 
@@ -58,7 +82,6 @@ class ProductDetail(DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(ProductDetail, self).get_context_data(**kwargs)
-        product = self.get_object()
-        context['product'] = product
+        context['product'] = get_product(self.kwargs.get('pk'))
         return context
 
