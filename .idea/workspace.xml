@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Кеширование фрагментов шаблона">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Кеширование всего сайта">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -449,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642415022411</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Кеширование всего сайта">
+      <created>1642419499963</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1642419499963</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,7 +469,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="создал приложение authnapp настроил url так же предстваления и динамические ссылки в файлах html/" />
     <MESSAGE value="создаю свою модель пользователя." />
     <MESSAGE value="не делаются миграции" />
     <MESSAGE value="Сделал автодобавление категорий и товаров из ОЫЩТ файла" />
@@ -490,7 +493,8 @@
     <MESSAGE value="Кеширование при помощи Memcached 2" />
     <MESSAGE value="Созданы 3-функции кэширования" />
     <MESSAGE value="Кеширование фрагментов шаблона" />
-    <option name="LAST_COMMIT_MESSAGE" value="Кеширование фрагментов шаблона" />
+    <MESSAGE value="Кеширование всего сайта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Кеширование всего сайта" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
