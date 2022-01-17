@@ -1,0 +1,29 @@
+{% extends 'product/base.html' %}
+{% load static %}
+
+
+    {% block CSS %}
+        <!-- Custom styles for this template -->
+        <link href="{% static 'css/index.css' %}" rel="stylesheet">
+    {% endblock %}
+
+{% block pageContent %}
+<!-- Page Content -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="mt-5">{{index_heading|title}}</h1>
+                <p>
+                    {{index_welcome_text|title}}
+                </p>
+                <button id="start-purchase-btn" type="button" class="btn btn-lg">
+                    <a id="start-purchase-link" href="{% url 'products:index' %}">
+                        {{index_start_purchase|title}}
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
