@@ -1,5 +1,6 @@
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.shortcuts import render
+from django.views.decorators.cache import cache_page, never_cache
 from django.views.generic import DetailView
 from .models import Category, Product
 from django.conf import settings
@@ -48,6 +49,8 @@ def index(request):
     return render(request, 'product/index.html', info_index)
 
 
+# @never_cache
+@cache_page(3600)
 def products(request, id_category=None, page=1):
     if id_category:
         products_bd = Product.objects.filter(category=id_category).select_related('category')
