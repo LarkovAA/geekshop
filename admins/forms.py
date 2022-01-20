@@ -44,10 +44,11 @@ class CategoryAdminRegisterForm(forms.ModelForm):
 
 class CategoryAdminUpdateForm(forms.ModelForm):
     id = forms.CharField(widget=forms.NumberInput(attrs={'readonly': False}))
+    discount = forms.IntegerField(widget=forms.NumberInput(), label='скидка', required=False, min_value=0,max_value=90, initial=0)
 
     class Meta:
         model = Category
-        fields = ('id', 'name', 'description')
+        fields = ('id', 'name', 'description', 'discount')
 
     def __init__(self, *args, **kwargs):
         super(CategoryAdminUpdateForm, self).__init__(*args, **kwargs)

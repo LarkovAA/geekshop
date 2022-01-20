@@ -41,6 +41,12 @@ class LoginLoginView(LoginView, BaseClassContexMixin):
     redirect_authenticated_user = reverse_lazy('auth:profile')
     title = 'Ввод данных'
 
+    def get(self, request, *args, **kwargs):
+        if request.user.is_authenticated:
+            return HttpResponseRedirect(reverse('index'))
+        return HttpResponseRedirect(reverse('auth:profile'))
+
+
 class RegUserCreateView(CreateView):
     model = ShopUser
     template_name = 'authnapp/register.html'
