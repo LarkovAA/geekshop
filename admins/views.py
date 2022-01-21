@@ -1,4 +1,6 @@
 from django.contrib.auth.decorators import user_passes_test
+from django.db import connection
+from django.db.models import F
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 
@@ -11,6 +13,11 @@ from admins.forms import UserAdminRegisterForm, UserAdminProfilForm, CategoryAdm
     ProductAdminRegisterForm, ProductAdminUpdateForm
 from authnapp.models import ShopUser
 from product.models import Category, Product
+
+def db_profile_by_type(prefix, type, queries):
+    update_queries = list(filter(lambda x: type in x['sql'], queries))
+    print((f'db_profile {type} for {prefix}:'))
+    [print(query['sql']) for query in update_queries]
 
 
 @user_passes_test(lambda u: u.is_superuser)
@@ -116,6 +123,15 @@ class CategoryUpdateView(UpdateView):
     template_name = 'admins/admin_categoryes_update_delete.html'
     form_class = CategoryAdminUpdateForm
     success_url = reverse_lazy('admins:admin_category')
+
+    def form_valid(self, form):
+        if 'discount' in form.cleaned_data:
+            discount = form.cleaned_data['discount']
+            if discount:
+                print(f'применяется скидка {discount} % к товарам категории {self.object.name}')
+                self.object.product_set.update(price=F('price')*(1-discount/100))
+                db_profile_by_type(self.__class__,'UPDATE', connection.queries)
+        return HttpResponseRedirect(self.get_success_url())
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(CategoryUpdateView, self).get_context_data(**kwargs)

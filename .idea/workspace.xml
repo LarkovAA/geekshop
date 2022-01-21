@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Кеширование всего сайта">
+    <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,15 +12,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_2_6_2" />
+        <entry key="$PROJECT_DIR$" value="homework_2_7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,13 +116,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636818420002</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Сделал все задания это уже точно.">
-      <created>1636818813522</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1636818813522</updated>
     </task>
     <task id="LOCAL-00002" summary="Сделал все задания это уже точно.">
       <created>1636818892554</created>
@@ -453,7 +446,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642419499963</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Сделал все задания">
+      <created>1642423285227</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1642423285227</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Сделал все задания">
+      <created>1642709445321</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1642709445321</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -488,13 +495,13 @@
     <MESSAGE value="Сделал все задания. Кроме дополнительного" />
     <MESSAGE value="Подготовил проект к загрузке на сервер" />
     <MESSAGE value="Сделал рег через вк" />
-    <MESSAGE value="Сделал все задания" />
     <MESSAGE value="Кеширование при помощи Memcached" />
     <MESSAGE value="Кеширование при помощи Memcached 2" />
     <MESSAGE value="Созданы 3-функции кэширования" />
     <MESSAGE value="Кеширование фрагментов шаблона" />
     <MESSAGE value="Кеширование всего сайта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Кеширование всего сайта" />
+    <MESSAGE value="Сделал все задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал все задания" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,6 +535,11 @@
           <url>file://$PROJECT_DIR$/ordersapp/views.py</url>
           <line>34</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/manage.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
