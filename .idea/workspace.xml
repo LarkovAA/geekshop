@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="990c302f-7d76-45c6-9eae-e7ac60b48d95" name="Default Changelist" comment="Сделал все задания">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/admins/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin_category_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin_category_create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/templates/admins/admin_categoryes_update_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/admins/templates/admins/admin_categoryes_update_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admins/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admins/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authnapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authnapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authnapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baskets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/baskets/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Домашка 7.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,13 +116,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636818420002</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Сделал все задания это уже точно.">
-      <created>1636818813522</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1636818813522</updated>
     </task>
     <task id="LOCAL-00002" summary="Сделал все задания это уже точно.">
       <created>1636818892554</created>
@@ -470,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642423285227</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Сделал все задания">
+      <created>1642709445321</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1642709445321</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,6 +535,11 @@
           <url>file://$PROJECT_DIR$/ordersapp/views.py</url>
           <line>34</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/manage.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
