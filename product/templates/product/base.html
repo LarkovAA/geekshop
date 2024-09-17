@@ -1,18 +1,27 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
 {% load static %}
+<html lang="en">
 
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GeekShop</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
     {% block CSS %}
-        <!-- Custom styles for this template -->
-        <link href="{% static 'css/index.css' %}" rel="stylesheet">
-    {% endblock %}
 
+    {% endblock %}
 
 </head>
 
 <body>
 
-{% block navigation%}
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
@@ -26,9 +35,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'products:index' %}">Каталог <i class="fas fa-shopping-bag"></i> </a>
                 </li>
+                {% if not user.is_authenticated %}
                 <li class="nav-item">
-                    <a class="nav-link" href="auth/login.html">Войти <i class="fas fa-sign-in-alt"></i></a>
+                    <a class="nav-link" href="{% url 'auth:login' %}">Войти <i class="fas fa-sign-in-alt"></i></a>
                 </li>
+                {% else %}
                 <li class="nav-item">
                     <a class="nav-link" href="auth/profile.html">User
                         <i class="fas fa-user-circle"></i>
@@ -40,34 +51,29 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Выйти <i class="fas fa-sign-out-alt"></i></a>
+                    <a class="nav-link" href="{% url 'auth:logout' %}">Выйти <i class="fas fa-sign-out-alt"></i></a>
                 </li>
+                {% endif %}
             </ul>
         </div>
     </div>
 </nav>
+
+{% block pageContent%}
+
 {% endblock %}
 
-{% block pageContent %}
-<!-- Page Content -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <h1 class="mt-5">{{index_heading|title}}</h1>
-                <p>
-                    {{index_welcome_text|title}}
-                </p>
-                <button id="start-purchase-btn" type="button" class="btn btn-lg">
-                    <a id="start-purchase-link" href="{% url 'products:index' %}">
-                        {{index_start_purchase|title}}
-                    </a>
-                </button>
-            </div>
-        </div>
-    </div>
-</section>
+{% block footer%}
+
 {% endblock %}
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+<!-- FontAwesome script -->
+<script src="{% static 'vendor/fontawesome/fontawesome-icons.js' %}" crossorigin="anonymous"></script>
 
 </body>
 

@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'product',
+    'authnapp',
 ]
 
 MIDDLEWARE = [
@@ -47,13 +48,14 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'geekshop.urls'
 
-TEMPLATES_DIR = BASE_DIR / 'product/templates'
+TEMPLATES_DIR_PROD = BASE_DIR / 'product/templates/product'
+TEMPLATES_DIR_AUTHNAPP = BASE_DIR / 'authnapp/templates/authnapp'
+
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'DIRS': [TEMPLATES_DIR, ],
+        'DIRS': [TEMPLATES_DIR_PROD, TEMPLATES_DIR_AUTHNAPP],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -93,7 +95,6 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
 LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
@@ -109,8 +110,9 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATICFILES_DIRS = [BASE_DIR / 'static',
-]
+STATICFILES_DIRS = [BASE_DIR / 'static',]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
+AUTH_USER_MODEL = 'authnapp.ShopUser'
